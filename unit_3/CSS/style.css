@@ -1,14 +1,14 @@
-body{text-align: center;}
-
-img{background-size: cover}
+body{
+	text-align: center;
+background-image: url(../images/spa.jpg);
+background-size: cover;
+}
 
 #title{font-size: 90px;
-	font-weight: 4px;}
-
-h1{font-size: 40px;
+	font-weight: 4px;
 	color: #601a1f;}
 
-h2{font-size: 24px;
+h2{font-size: 50px;
 color: #0540f2;}
 
 #slogan{font-style: italic;
