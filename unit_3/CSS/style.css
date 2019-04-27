@@ -6,12 +6,21 @@ background-size: cover;
 
 #title{font-size: 90px;
 	font-weight: 4px;
-	color: #601a1f;}
+	color: #B32AE8;
+}
 
 h2{font-size: 50px;
-color: #0540f2;}
+color: black;
+}
+
+#tag{	font-weight: bold;
+		font-size: 30px;
+		color: #B32AE8;
+	}
 
 #slogan{font-style: italic;
-		font-weight: bold;}
+		font-weight: bold;
+		font-size: 20px;
+	}
 
 
