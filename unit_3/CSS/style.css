@@ -1,12 +1,17 @@
+
 body{
-	text-align: center;
+	text-align: left;
 background-image: url(../images/spa.jpg);
 background-size: cover;
 }
 
+
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
 #title{font-size: 90px;
 	font-weight: 4px;
 	color: #B32AE8;
+	font-family: Slabo27px;
 }
 
 h2{font-size: 50px;

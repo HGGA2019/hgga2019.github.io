@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+body{
+	text-align: center;
+background-image: url(../images/spa.jpg);
+background-size: cover;
+}
+
+#title{
+	text-align: left;
+	font-size: 90px;
+	font-weight: bold;
+	color: #B32AE8;
+	font-family: Raleway;
+	line-height: .5em;
+}
+
+
+h2{
+	text-align: left;
+	font-size: 50px;
+	font-weight: normal;
+	color: black;
+}
+
+#tag{	font-weight: bold;
+		font-size: 30px;
+		color: white
+		line-height: 2em;
+	}
+
+#slogan{font-style: italic;
+		font-weight: bold;
+		font-size: 20px;
+		color: #2E17E8;
+		line-height: 2em;
+	}
+
+#contact{font-weight: bold};
+
+
+
