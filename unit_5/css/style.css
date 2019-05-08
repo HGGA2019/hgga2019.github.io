@@ -5,10 +5,14 @@ body{
 	text-align: center;
 }
 
-span.id.events{
-	display: block;
-	border: 40px orange solid;
+#title{
+	font-size: 90px;
+	font-weight: bold;
+	color: black;
+	font-family: Raleway;
+	line-height: .5em;
 }
+
 
 h2{
 	font-size: 50px;
@@ -19,7 +23,7 @@ h2{
 #tag{	
 	font-weight: bold;
 	font-size: 30px;
-	color: black;
+	color: white
 	line-height: 2em;
 }
 
@@ -35,16 +39,11 @@ h2{
 	font-weight: bold;
 }
 
-
 #event{
 	background-color: orange;
 	font-size: 25px;
 	font-family: Raleway;
-	padding: 40px;
-	border: 40px black solid;
 }
-
-
 
 #build{
 	background-color: yellow;
@@ -64,18 +63,16 @@ h2{
 	font-family: Raleway;
 }
 
-
 #spa{
 	font-size: 25px;
 	font-family: Raleway;
-	border: 35px orange solid;
+	background-color: orange;
 }
 
 #date{
 	font-size: 25px;
 	font-family: Raleway;
 	background-color: yellow;
-
 }
 #sport{
 	font-size: 25px;
@@ -86,9 +83,4 @@ h2{
 	font-size: 25px;
 	font-family: Raleway;
 	background-color: green;
-}
-
-footer{
-	text-align: center;
-	padding: .8em 0;
 }
