@@ -6,8 +6,12 @@ body{
 }
 
 span.id.events{
-	display: block;
-	border: 40px orange solid;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 40px orange; 
+  background-color: orange; 
 }
 
 h2{
@@ -37,7 +41,6 @@ h2{
 
 
 #event{
-	background-color: orange;
 	font-size: 25px;
 	font-family: Raleway;
 	padding: 40px;
