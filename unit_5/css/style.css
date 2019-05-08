@@ -5,37 +5,14 @@ body{
 	text-align: center;
 }
 
-span.id.events{
+span.id.events,.id.build,.id.buy,.id.deliver{
   display: inline-block;
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: orange; 
-}
-
-span.id.build{
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  padding: 5px;
-  background-color: yellow;
+  margin: .5em;
  }
 
- span.id.buy{
-  display: block;
-  width: 40px;
-  height: 40px;
-  padding: 5px;
-  background-color: blue;
- }
-
- span.id.deliver{
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  padding: 5px;
-  background-color: green;
- }
 
 h2{
 	font-size: 50px;
