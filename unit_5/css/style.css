@@ -9,6 +9,7 @@ h2{
 	font-size: 50px;
 	font-weight: normal;
 	color: blue;
+	font-style: serif;
 }
 
 #tag{	
@@ -18,16 +19,23 @@ h2{
 	line-height: 2em;
 }
 
-#slogan{
+#slogan1{
 	font-style: italic;
 	font-weight: bold;
 	font-size: 30px;
 	color: orange;
 	line-height: 2em;
 }
-
-#contact{
+#slogan{
+	font-style: italic;
 	font-weight: bold;
+	font-size: 30px;
+	color: blue;
+	line-height: 2em;
+}
+
+#how{
+	font-size: 40px;
 }
 
 
