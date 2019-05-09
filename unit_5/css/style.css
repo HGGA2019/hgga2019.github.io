@@ -13,6 +13,13 @@ span.id.events,.id.build,.id.buy,.id.deliver{
   margin: .5em;
  }
 
+span.id.build{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  margin: .5em;
+ }
 
 h2{
 	font-size: 50px;
@@ -65,27 +72,33 @@ h2{
 }
 
 
+
+
 #spa{
 	font-size: 25px;
 	font-family: Raleway;
-	border: 35px orange solid;
+	border: 5px orange solid;
 }
 
 #date{
 	font-size: 25px;
 	font-family: Raleway;
 	background-color: yellow;
-
+	border: 5px yellow solid;
 }
+
 #sport{
 	font-size: 25px;
 	font-family: Raleway;
 	background-color: blue;
+	border: 5px blue solid;
 }
+
 #night{
 	font-size: 25px;
 	font-family: Raleway;
 	background-color: green;
+	border: 5px green solid;
 }
 
 footer{
