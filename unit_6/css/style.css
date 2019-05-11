@@ -92,7 +92,7 @@ h2{
   	padding: 75px;
   	font-size: 25px;
 	font-family: Raleway;
-	border: 5px orange solid;
+	border: 2px black solid;
 	background-color: orange;
 	border-radius: 180px;
 	background-image: url(../images/stone_flowers.jpg);
@@ -108,7 +108,7 @@ h2{
   	font-size: 25px;
 	font-family: Raleway;
 	color: white;
-	border: 5px yellow solid;
+	border: 2px black solid;
 	background-color: yellow;
 	border-radius: 180px;
 	background-image: url(../images/web1_Date-night.jpeg);
@@ -124,11 +124,11 @@ h2{
   	font-size: 25px;
 	font-family: Raleway;
 	font-weight: bold;
-	border: 5px blue solid;
+	border: 2px black solid;
 	background-color: blue;
 	border-radius: 180px;
 	background-image: url(../images/8TEb8q5qc.jpg);
-	background-size: 500px;
+	background-size: 375px;
 	background-repeat: no-repeat;
 }
 
@@ -141,11 +141,11 @@ h2{
 	font-family: Raleway;
 	color: white;
 	font-weight: bold;
-	border: 5px green solid;
+	border: 2px black solid;
 	background-color: green;
 	border-radius: 180px;
 	background-image: url(../images/girls-night-out-nj.jpg);
-	background-size: 200px;
+	background-size: 275px;
 	background-repeat: no-repeat;
 }
 
