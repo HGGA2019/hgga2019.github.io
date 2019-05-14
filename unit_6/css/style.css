@@ -42,93 +42,107 @@ h2{
 
 #event{
 	background-color: orange;
+	display: inline-block;
 	font-size: 25px;
 	font-family: Raleway;
 	display: inline-block;
-  	width: 75px;
-  	height: 75px;
-  	padding: 75px;
+  	width: 200px;
+  	height: 100px;
+  	padding: 25px;
   	border: 5px orange solid;
-  }
+  	text-align: center;
+  	margin: auto;
+}
 
 #eventp{
 	background-color: orange;
 	font-size: 15px;
 	display: inline-block;
-  	width: 75px;
-  	height: 75px;
-  	padding: 75px;
+  	width: 250px;
+  	height: 50px;
+  	padding: 0px;
   	border: 5px orange solid;
   	margin: auto;
-  	text-align: normal;
-  	box-sizing: 100px;
-}
+  	text-align: center;
+  }
 
 #build{
 	background-color: yellow;
 	display: inline-block;
-  	width: 75px;
-  	height: 75px;
-  	padding: 75px;
-  	font-size: 25px;
+	font-size: 25px;
 	font-family: Raleway;
-	border: 5px yellow solid;
+	display: inline-block;
+  	width: 200px;
+  	height: 100px;
+  	padding: 25px;
+  	border: 5px yellow solid;
+  	text-align: center;
+  	margin: auto;
 }
 
 #buildp{
 	background-color: yellow;
 	font-size: 15px;
 	display: inline-block;
-  	width: 75px;
-  	height: 75px;
-  	padding: 75px;
+	width: 250px;
+  	height: 50px;
+  	padding: 0px;
   	border: 5px yellow solid;
   	margin: auto;
-}
+  	text-align: center;
+  }
 
 #buy{
-	display: inline-block;
-  	width: 75px;
-  	height: 75px;
-  	padding: 75px;
-  	font-size: 25px;
-	font-family: Raleway;
-	border: 5px blue solid;
 	background-color: blue;
+	display: inline-block;
+	font-size: 25px;
+	font-family: Raleway;
+	display: inline-block;
+  	width: 200px;
+  	height: 100px;
+  	padding: 25px;
+  	border: 5px blue solid;
+  	text-align: center;
+  	margin: auto;
 }
 
 #buyp{
 	background-color: blue;
 	font-size: 15px;
 	display: inline-block;
-  	width: 75px;
-  	height: 75px;
-  	padding: 75px;
+ 	width: 250px;
+  	height: 50px;
+  	padding: 0px;
   	border: 5px blue solid;
   	margin: auto;
-}
+  	text-align: center;
+  }
 
 #deliver{
-	display: inline-block;
-  	width: 75px;
-  	height: 75px;
-  	padding: 75px;
-  	font-size: 25px;
-	font-family: Raleway;
-	border: 5px green solid;
 	background-color: green;
+	display: inline-block;
+	font-size: 25px;
+	font-family: Raleway;
+	display: inline-block;
+  	width: 200px;
+  	height: 100px;
+  	padding: 25px;
+  	border: 5px green solid;
+  	text-align: center;
+  	margin: auto;
 }
 
 #deliverp{
 	background-color: green;
 	font-size: 15px;
 	display: inline-block;
-  	width: 75px;
-  	height: 75px;
-  	padding: 75px;
+	width: 250px;
+  	height: 50px;
+  	padding: 0px;
   	border: 5px green solid;
   	margin: auto;
-}
+  	text-align: center;
+  }
 
 #spa{
 	display: inline-block;
