@@ -46,7 +46,11 @@ h1{
 }
 
 #how{
-	font-size: 40px;
+	font-size: 60px;
+	font-weight: bold;
+	font-size: 30px;
+	color: black;
+	line-height: 2em;
 }
 
 #event{
