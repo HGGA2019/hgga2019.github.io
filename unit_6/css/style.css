@@ -82,7 +82,6 @@ h1{
 	font-weight: bold;
 	font-size: 30px;
 	color: black;
-	line-height: 2em;
 }
 
 #slogan1{
@@ -90,7 +89,6 @@ h1{
 	font-weight: bold;
 	font-size: 30px;
 	color: blue;
-	line-height: 2em;
 }
 
 #slogan{
@@ -98,17 +96,16 @@ h1{
 	font-weight: bold;
 	font-size: 30px;
 	color: orange;
-	line-height: 2em;
 }
 
 #how{
 	font-size: 100px;
 	font-weight: bold;
 	color: black;
-	line-height: 2em;
 	margin: 0px;
 	padding: 0px;
 }
+
 
 #event{
 	background-color: orange;
