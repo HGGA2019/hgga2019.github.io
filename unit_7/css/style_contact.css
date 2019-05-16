@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
+body {background-color: #A5DEE8;
+}
+
 img{
 	text-align:  center;
 }
@@ -107,36 +110,6 @@ p{
 	font-family: Raleway;
 }
 
-a{
-	background-color: black;
-	display: block;
-	font-size: 15px;
-	font-style: bold;
-	width: 80px;
-  	height: 20px;
-  	padding: 0px;
-  	border: 5px black solid;
-  	text-align: center;
-  	margin: 0px;
-}
-
-a:link {
-  color: white; 
-  text-decoration: none;
-  text-align: center;
-}
-
-a:hover {
-  color: red;
-  text-decoration: underline;
-  text-align: center;
-}
-
-a:active {
-  color: yellow;
-  text-decoration: underline;
-  text-align: center;
-}
 
 footer{
 	text-align: center;
