@@ -1,59 +1,54 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway')
 
-body {background-color: #FFE93D;
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body {background-color: #D1FFF4; color: black; font-style: serif; text-align: center;
 }
 
 img{
-	text-align:  center;
+	display: block; 
+	width: 75%;  
+	margin-left: auto;
+  	margin-right: auto;
 }
 
 div{
 	text-align: center;
 }
 
+p{
+	font-size: 15px;
+	font-family: sans-serif;
+}
+
+
 h2{
-	font-size: 50px;
-	font-weight: normal;
-	color: black;
-	font-style: serif;
-	
+	font-size: 40px;
 }
 
-h1{
-	font-size: 50px;
-	font-weight: normal;
-	color: black;
-	font-style: serif;
-	
+h3{
+	font-family: sans-serif;
+	text-align: center;
 }
-
-
 
 nav{
   font-size: 1.8em;
-  float: center;
-  padding: 0px;
-  margin: 0px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 nav a{
   text-decoration:none;
   color: white;
-  margin: 0em;
   display: inline-block;
-}
-
-a{
 	background-color: black;
-	display: block;
 	font-size: 15px;
 	font-style: bold;
 	width: 80px;
   	height: 20px;
-  	padding: 0px;
-  	border: 5px black solid;
   	text-align: center;
-  	margin: 0px;
+  	
 }
 
 a:link {
@@ -65,23 +60,11 @@ a:link {
 a:hover {
   color: red;
   text-decoration: underline;
-  text-align: center;
-}
+ }
 
 a:active {
   color: yellow;
   text-decoration: underline;
-  text-align: center;
-}
-
-span{
-	font-size: 15px;
-	font-family: serif;
-}
-
-h1{
-	font-size: 40px;
-	padding-top: 5%;
 }
 
 #tag{	
@@ -91,148 +74,97 @@ h1{
 }
 
 #slogan1{
-	font-style: italic;
-	font-weight: bold;
-	font-size: 30px;
 	color: #4A5BFF;
+	font-size: 25px;
 }
 
-#slogan{
+.slogan{
 	font-style: italic;
 	font-weight: bold;
 	font-size: 30px;
 	color: black;
+}
+
+.hww{
+	margin-left: auto;
+  	margin-right: auto;
+	display: inline-block;
+	font-size: 25px;
+	width: 200px;
+  	height: 350px;
+  	text-align: center;
+ 	vertical-align: bottom;
+ }
+
+.boxes{
+	background-color: black;
+	height: 450px;
 }
 
 #how{
 	font-size: 100px;
 	font-weight: bold;
-	color: black;
-	margin: 0px;
-	padding: 5%;
+	background-color: black;
+	color: #D1FFF4;
+	margin:0px 0px -0px 0px;
+	text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
 }
 
 
 #event{
 	background-color: orange;
-	display: inline-block;
-	font-size: 25px;
-	font-family: Raleway;
-	display: inline-block;
-  	width: 200px;
-  	height: 275px;
-  	padding: 25px;
-  	text-align: center;
- 	margin: 0px;
- 	vertical-align: bottom;
- }
+}
 
 
 #build{
 	background-color: yellow;
-	display: inline-block;
-	font-size: 25px;
-	font-family: Raleway;
-	display: inline-block;
-  	width: 200px;
-  	height: 275px;
-  	padding: 25px;
-  	text-align: center;
-  	margin: 0px;
 }
 
 #buy{
 	background-color: blue;
-	display: inline-block;
-	font-size: 25px;
-	font-family: Raleway;
-	display: inline-block;
-  	width: 200px;
-  	height: 275px;
-  	padding: 25px;
-  	text-align: center;
   	color: white;
-  	margin: 0px;
-}
+ }
 
 #deliver{
 	background-color: green;
+	color: white;
+}
+
+.popular{
 	display: inline-block;
-	font-size: 25px;
-	font-family: Raleway;
-	display: inline-block;
-  	width: 200px;
+	margin: auto;
+	width: 275px;
   	height: 275px;
-  	padding: 25px;
+  	font-size: 35px;
+	border: 2px black solid;
+	border-radius: 180px;
+	background-size: 500px;
+	background-repeat: no-repeat;
+	vertical-align: bottom;
+	position: relative;
   	text-align: center;
-  	color: white;
-  	margin: 0px;
-  	vertical-align: bottom;
+  	line-height: 250px;
+  	padding: 15px;
 }
 
 #spa{
-	display: inline-block;
-  	width: 75px;
-  	height: 75px;
-  	padding: 85px;
-  	font-size: 25px;
-	font-family: Raleway;
-	border: 2px black solid;
-	background-color: orange;
-	border-radius: 180px;
 	background-image: url(../images/stone_flowers.jpg);
-	background-size: 500px;
-	background-repeat: no-repeat;
 }
 
 #date{
-	display: inline-block;
-  	width: 75px;
-  	height: 75px;
-  	padding: 85px;
-  	font-size: 25px;
-	font-family: Raleway;
 	color: white;
-	border: 2px black solid;
-	background-color: yellow;
-	border-radius: 180px;
 	background-image: url(../images/web1_Date-night.jpeg);
-	background-size: 500px;
-	background-repeat: no-repeat;
 }
 
 #sport{
-	display: inline-block;
-  	width: 75px;
-  	height: 75px;
-  	padding: 85px;
-  	font-size: 25px;
-	font-family: Raleway;
-	font-weight: bold;
-	border: 2px black solid;
-	background-color: blue;
-	border-radius: 180px;
 	background-image: url(../images/8TEb8q5qc.jpg);
-	background-size: 375px;
-	background-repeat: no-repeat;
-	font-style: bold;
+	vertical-align: center;
 }
 
 #night{
-	display: inline-block;
-  	width: 75px;
-  	height: 75px;
-  	padding: 85px;
-  	font-size: 25px;
-	font-family: Raleway;
 	color: white;
-	font-weight: bold;
-	border: 2px black solid;
-	background-color: green;
-	border-radius: 180px;
 	background-image: url(../images/girls-night-out-nj.jpg);
-	background-size: 275px;
-	background-repeat: no-repeat;
+	background-size: 300px;
 }
 
 footer{
