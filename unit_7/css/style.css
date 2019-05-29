@@ -7,7 +7,7 @@ body {background-color: #D1FFF4; color: black; font-style: serif; text-align: ce
 
 img{
 	display: block; 
-	width: 75%;  
+	width: 60%;  
 	margin-left: auto;
   	margin-right: auto;
 }
@@ -31,41 +31,33 @@ h3{
 	text-align: center;
 }
 
-nav{
-  font-size: 1.8em;
-  width: 100%;
-  max-width: 500px;
-  margin: 0 auto;
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
 }
 
-nav a{
-  text-decoration:none;
-  color: white;
+li {
+  float: center;
   display: inline-block;
-	background-color: black;
-	font-size: 15px;
-	font-style: bold;
-	width: 80px;
-  	height: 20px;
-  	text-align: center;
-  	
+  font-size: 30px;
 }
 
-a:link {
-  color: white; 
-  text-decoration: none;
+li a {
+  display: block;
+  color: #D1FFF4;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-a:hover {
-  color: red;
-  text-decoration: underline;
- }
-
-a:active {
-  color: yellow;
-  text-decoration: underline;
+li a:hover {
+  background-color: #111;
 }
+
 
 #tag{	
 	font-weight: bold;
@@ -82,7 +74,7 @@ a:active {
 	font-style: italic;
 	font-weight: bold;
 	font-size: 30px;
-	color: black;
+	color: #4A5BFF;
 }
 
 .hww{
@@ -90,8 +82,9 @@ a:active {
   	margin-right: auto;
 	display: inline-block;
 	font-size: 25px;
-	width: 200px;
+	width: 250px;
   	height: 350px;
+  	padding-top: 10px;
   	text-align: center;
  	vertical-align: bottom;
  }
@@ -104,9 +97,10 @@ a:active {
 #how{
 	font-size: 100px;
 	font-weight: bold;
+	padding-top: 20px;
 	background-color: black;
 	color: #D1FFF4;
-	margin:0px 0px -0px 0px;
+	margin:-0px 0px -0px 0px;
 	text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
 }
 
@@ -149,6 +143,7 @@ a:active {
 
 #spa{
 	background-image: url(../images/stone_flowers.jpg);
+	background-size: 550px;
 }
 
 #date{
@@ -159,12 +154,13 @@ a:active {
 #sport{
 	background-image: url(../images/8TEb8q5qc.jpg);
 	vertical-align: center;
+	font-weight: bold;
 }
 
 #night{
 	color: white;
 	background-image: url(../images/girls-night-out-nj.jpg);
-	background-size: 300px;
+	background-size: 350px;
 }
 
 footer{
