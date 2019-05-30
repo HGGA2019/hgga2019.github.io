@@ -177,16 +177,17 @@ footer{
 	font-size: .5em
 }
 
-@media only screen and (max-width: 800px) and (min-width: 400px) {
-	.popular, .hww, .boxes{
+@media only screen and (max-width: 800px) and (min-width: 300px) {
+	.popular, .hww, .boxes {
 		float: none;
 		width: auto;
 	} 
+
 
 	body{
 		font-size: 25px;
 	}
 
-
+	
 }
 
