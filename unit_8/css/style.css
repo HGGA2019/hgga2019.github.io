@@ -157,12 +157,14 @@ li a:hover {
 #date{
 	color: white;
 	background-image: url(../images/web1_Date-night.jpeg);
+	background-size: 20em;
 }
 
 #sport{
 	background-image: url(../images/sports.jpg);
 	vertical-align: center;
 	font-weight: bold;
+	background-size: 15em;
 }
 
 #night{
@@ -177,12 +179,23 @@ footer{
 	font-size: .5em
 }
 
-@media only screen and (max-width: 800px) and (min-width: 300px) {
+@media only screen and (max-width: 1000px) and (min-width: 300px) {
 	.popular, .hww, .boxes {
 		float: none;
 		width: auto;
+		background-size: 20%;
 	} 
 
+	.hww, .boxes{
+		font-size: 50%;
+	}
+	
+	.popular{
+		width: 10vw;
+  		height: 10vw;
+  		border-radius: 50%;
+  		font-size: 20%
+  	}
 
 	body{
 		font-size: 25px;
