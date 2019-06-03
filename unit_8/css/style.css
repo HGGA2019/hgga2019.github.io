@@ -179,7 +179,26 @@ footer{
 	font-size: .5em
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 300px) {
+@media only screen and (max-width: 1300px) and (min-width: 600px) {
+	.popular, .hww, .boxes {
+		float: none;
+		width: auto;
+		background-size: 20%;
+	} 
+
+	.popular{
+		width: 10vw;
+  		height: 10vw;
+  		border-radius: 50%;
+  		font-size: 20%
+  	}
+
+  	body {
+  		font-size: 35px;
+  	}
+}
+
+@media only screen and (max-width: 600px) {
 	.popular, .hww, .boxes {
 		float: none;
 		width: auto;
@@ -201,11 +220,10 @@ footer{
 		font-size: 25px;
 	}
 
-	
+	  p {
+    	display: none;
+  	}
 }
 
-@media only screen and (max-width: 600px) {
-  p {
-    display: none;
-  }
-}
+
+	
