@@ -181,7 +181,7 @@ footer{
 	font-size: .5em
 }
 
-@media only screen and (max-width: 1000px) and (min-width: 300px) {
+@media only screen and (max-width: 1000px) and (min-width: 600px) {
 	.popular, .hww, .boxes {
 		float: none;
 		width: auto;
