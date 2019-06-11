@@ -23,7 +23,7 @@ h2{
 
  h3 {
  	font-family: sans-serif;
-	font-size: 3em;
+	font-size: 2em;
     }
 
 
@@ -32,7 +32,7 @@ ul {
 }
 
 li {
-  font-size: 1em;
+  font-size: 3em;
 }
 
 li a {
@@ -161,7 +161,7 @@ li a:hover {
 	border-radius: 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	/*line-height: 20vw;*/
+	line-height: 20vw;
   	display: flex;
   	justify-content: center;
   	flex-shrink: 0;
@@ -200,3 +200,12 @@ footer{
 	font-size: 2em
 	padding: 100px 20px 20px;
 }
+
+@media only screen and (max-width: 750px) {
+	.popular{
+		font-size: 1.25em;
+	}
+
+	#how-we-work p {
+		display: none;
+	}
